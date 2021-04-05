@@ -4,14 +4,14 @@
         1. [Step](#step)
         2. [Step](#step-1)
 
-  * [Example](#example)
-  * [Example2](#example2)
-  * [Third Example](#third-example)
-  * [[Fourth Example](http://www.fourthexample.com)](#-fourth-example--http---wwwfourthexamplecom-)
-- [*_jej_*](#--jej--)
-    + [_kotlin_](#-kotlin-)
-  * [*jaba*](#-jaba-)
-    + [solution](#solution)
+- [Example](#example)
+- [Example2](#example2)
+- [Third Example](#third-example)
+- [Fourth Example](#fourth-example)
+- [*_jej_*](#jej)
+    - [_kotlin_](#kotlin)
+  - [*jaba*](#jaba)
+    - [solution](#solution)
 
 
 # My Project
