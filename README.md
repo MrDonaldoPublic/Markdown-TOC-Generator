@@ -1,8 +1,8 @@
 1. [My Project](#my-project)
     1. [Idea](#idea---kek----lol)
     2. [Implementation](#implementation)
-        1. [Step](#step-1)
-        2. [Step](#step-2)
+        1. [Step](#step-0)
+        2. [Step](#step-1)
 
 # My Project
 a
