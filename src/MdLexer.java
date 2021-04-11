@@ -36,10 +36,10 @@ public class MdLexer {
             if (curLine != null && curLine.startsWith("```")) {
                 isCode = !isCode;
             }
-            if (isCode) {
+            if (isCode && !hadSharp) {
                 continue;
             }
-            if (!currTitle.getValue().isEmpty() && curLine != null && !curLine.isEmpty()) {
+            if (!currTitle.getValue().isEmpty() && curLine != null && !curLine.isEmpty() && !isCode) {
                 if (curLine.chars().allMatch(c -> c == '=')) {
                     curToken = Token.TITLE;
                     currTitle = new Title(currTitle.getOriginal(), 1);
@@ -56,7 +56,7 @@ public class MdLexer {
                 curToken = Token.TITLE;
                 hadSharp = curLine != null && curLine.startsWith("#");
                 return;
-            } else if (curLine != null && curLine.startsWith("#")) {
+            } else if (curLine != null && curLine.startsWith("#") && !isCode) {
                 hadSharp = true;
             }
         }
